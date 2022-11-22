@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(images/background.jpg) ;
+}
 header{
     display: flex;
     flex-direction: row;
@@ -12,8 +15,33 @@ header{
     margin: 0 auto;
 }
 .logo{
-    width: 10%;
+    
+    float: left;
+    
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
 }
-body{
-    background-image: url(C:\Users\Ann\Desktop\Netflix\images\background.jpg) ;
+section{
+    text-align: center;
 }
+
+a{
+direction: ltr;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+letter-spacing: 0!important;
+text-decoration: none;
+border-radius: 3px;
+color: #fff;
+margin-top: .5rem;
+background-color: #e50914;
+float: right;
+font-size: 1rem;
+font-weight: 400;
+line-height: normal;
+padding: 7px 17px;
+} 
+
+
+
